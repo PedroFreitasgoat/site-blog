@@ -9,7 +9,7 @@ export const Footer = () => {
 
                 <Link href='/'>
                 <Image 
-                src='/Brand-Logo.svg'
+                src='/logo.svg'
                 alt="Logo site"
                 width={116}
                 height={32}
