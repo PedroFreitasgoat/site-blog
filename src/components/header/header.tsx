@@ -26,7 +26,7 @@ export const Header = () => {
             <ActiveLink href="/blog">Blog</ActiveLink>
 
             <Button
-              variant="default"
+              variant="secondary"
               className="bg-white text-black"
               asChild
             >
