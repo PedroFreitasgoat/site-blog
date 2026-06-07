@@ -37,7 +37,7 @@ export const FeatureSection = () => {
           <div className="flex flex-col gap-4">
             <span
               className="text-body-tag text-blue-200 bg-blue-400 px-2 py-1 w-fit
-            rounded-sm uppercase"
+            rounded-sm uppercase" //
             >
               Personalizável
             </span>
