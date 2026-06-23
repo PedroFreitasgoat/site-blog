@@ -6,7 +6,7 @@ const ptSansCaption = PT_Sans_Caption({
   weight: "700",
 });
 
-const customerStory = [
+const customerStories = [
   {
     content:
       "Criar minha loja com o site.set foi a melhor decisão para o meu negócio. A plataforma é super intuitiva, e consegui colocar meus produtos á venda em poucos minutos.",
@@ -38,10 +38,15 @@ export const CustomerStorySection = () => {
         </h2>
 
         <div className="grid gap-8 md:grid-cols-2">
-          {customerStory.map((customerStory) => (
-            <div key={customerStory.author.name} className="flex flex-col gap-6 rounded-lg bg-gray-500
-            p-6 md:p-12">
-              <p className="text-balance text-gray-200">{customerStory.content}</p>
+          {customerStories.map((customerStory) => (
+            <div
+              key={customerStory.author.name}
+              className="flex flex-col gap-6 rounded-lg bg-gray-500
+            p-6 md:p-12"
+            >
+              <p className="text-balance text-gray-200">
+                {customerStory.content}
+              </p>
 
               <div className="flex items-center gap-3">
                 <div className="relative h-10 w-10 overflow-hidden rounded-full">
