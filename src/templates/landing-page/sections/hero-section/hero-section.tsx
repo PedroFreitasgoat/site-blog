@@ -1,5 +1,6 @@
+import { Button } from "@/components/ui/button";
 import { ArrowRight, Clock, Store } from "lucide-react";
-import { Button } from "../../../components/ui/button";
+
 import Image from "next/image";
 import Link from "next/link";
 

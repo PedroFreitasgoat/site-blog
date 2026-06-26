@@ -1,5 +1,6 @@
+import { Button } from "@/components/ui/button";
 import { ArrowRight, Store } from "lucide-react";
-import { Button } from "../../../components/ui/button";
+
 import Link from "next/link";
 
 
